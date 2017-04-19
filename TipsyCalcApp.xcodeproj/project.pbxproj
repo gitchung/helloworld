@@ -12,6 +12,7 @@
 		9F25AF751EA6FDA2004243D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F25AF731EA6FDA2004243D7 /* Main.storyboard */; };
 		9F25AF771EA6FDA2004243D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F25AF761EA6FDA2004243D7 /* Assets.xcassets */; };
 		9F25AF7A1EA6FDA2004243D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F25AF781EA6FDA2004243D7 /* LaunchScreen.storyboard */; };
+		9F25AF851EA75414004243D7 /* TipModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F25AF841EA75414004243D7 /* TipModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9F25AF761EA6FDA2004243D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F25AF791EA6FDA2004243D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F25AF7B1EA6FDA2004243D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F25AF841EA75414004243D7 /* TipModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,39 @@
 		9F25AF6E1EA6FDA2004243D7 /* TipsyCalcApp */ = {
 			isa = PBXGroup;
 			children = (
+				9F25AF831EA6FE10004243D7 /* Model */,
+				9F25AF821EA6FE05004243D7 /* View */,
+				9F25AF811EA6FDF7004243D7 /* Controller */,
 				9F25AF6F1EA6FDA2004243D7 /* AppDelegate.swift */,
-				9F25AF711EA6FDA2004243D7 /* ViewController.swift */,
 				9F25AF731EA6FDA2004243D7 /* Main.storyboard */,
 				9F25AF761EA6FDA2004243D7 /* Assets.xcassets */,
 				9F25AF781EA6FDA2004243D7 /* LaunchScreen.storyboard */,
 				9F25AF7B1EA6FDA2004243D7 /* Info.plist */,
 			);
 			path = TipsyCalcApp;
+			sourceTree = "<group>";
+		};
+		9F25AF811EA6FDF7004243D7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9F25AF711EA6FDA2004243D7 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9F25AF821EA6FE05004243D7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9F25AF831EA6FE10004243D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F25AF841EA75414004243D7 /* TipModel.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F25AF851EA75414004243D7 /* TipModel.swift in Sources */,
 				9F25AF721EA6FDA2004243D7 /* ViewController.swift in Sources */,
 				9F25AF701EA6FDA2004243D7 /* AppDelegate.swift in Sources */,
 			);
